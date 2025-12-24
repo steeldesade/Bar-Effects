@@ -1520,19 +1520,13 @@ sparks_1 = {
     ground = true,
     count = 1,
     properties = {
-        airdrag         = 1,
+        airdrag 	= 0.999,
 	directional 	= true,
 	emitRot 	= 3,
         emitVector 	= [[0,1,0]],
-        
         emitRotSpread 	= 180,
-	emitvector      = [[0, 1, 0]],
-        pos 		= [[0 r-10 r10, 5 r20, 0 r-10 r10]],
-        airdrag 	= 0.999,
         gravity 	= [[0,0,0]],
-
         numparticles 	= 1000,
-        
         particleSpeed 	= 0.08,
         particleSpeedSpread = 15,
 	particleLife 	= 50,
@@ -1595,7 +1589,7 @@ sparks_1 = {
             directional=true,
             emitVector=[[0,1,0]],
             emitRot=3, 
-	    emitRotSpread=160,
+	    emitRotSpread=180,
             pos=[[0,0,0]],
             airdrag=0.999,
             gravity=[[0,-0,0]],
